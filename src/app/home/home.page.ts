@@ -7,6 +7,16 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  fecha: string = '';
+  fechaActual: string;
+
+  constructor() {
+    this.fechaActual = new Date().toISOString();
+  }
+
+  mostrarFecha() {
+    this.fecha = (this.fechaActual)
+  }
+
 
 }

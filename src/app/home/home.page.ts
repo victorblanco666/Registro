@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class HomePage {
 
   fecha: string = '';
-  
+  fechaActual: string;
 
   constructor() {
     this.fechaActual = new Date().toISOString();
@@ -18,5 +18,5 @@ export class HomePage {
     this.fecha = (this.fechaActual)
   }
 
-¿
+
 }
